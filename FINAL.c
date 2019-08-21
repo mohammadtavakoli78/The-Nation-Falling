@@ -13,7 +13,7 @@ struct problems_text{     //structure for saving problems informations
         s_court,          //second decide effect on court consent
         s_treasury,       //second decide effect on treasury consent
         occ;              //how times the problem can occurrence
-    struct problems_text *next;
+    struct problems_text *next; // a pointer to a struct
 };
 
 struct problems_text *create_node(void){  //Function for Create linked list
