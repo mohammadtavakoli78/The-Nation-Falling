@@ -1240,7 +1240,7 @@ int continue_game(struct problems_text *p,char e_name[200],int n_node){  //funct
     }
 }
 
-int main()
+int main() //This is main method
 {
     struct problems_text *p;
     char name[200];
